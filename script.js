@@ -28,7 +28,7 @@ function createFlower(){
     const pet = document.createElement('div');
     pet.className = 'petala';
     pet.style.width = petalW + 'px';
-    pet.style.height = petH + 'px';
+    pet.style.height = petalH + 'px';
     pet.style.transform = `translate(-50%,-100%) rotate(${i * (360/petals)}deg)`;
     flower.appendChild(pet);
   }
@@ -73,7 +73,7 @@ const closeModal = document.getElementById('closeModal');
 const typedText = document.getElementById('typedText');
 const modalContent = document.getElementById('modalContent');
 
-const message = "queria que vc soubesse o quanto você significa para mim. você alegra minha vida de maneiras que eu nem consigo explicar. cada brincadeirinha, cada beijo, cada abraço, cada sorriso, faz meu coração bater tão forte que parece que ele pode explodir a qualquer momento. sou imensamente grato por ter te conhecido e por tudo o que vivemos, apesar das nossas discussões e o tempo ruim que tivemos. sei que não fui o melhor parceiro que você poderia ter mas quero que saiba que eu me esforço todos os dias para poder voltar a ser o seu amor, mesmo errando e sendo falho. espero muito pelo dia que poderei dizer que vc é minha e só minha. eu te amo muito mesmo... com muito amor, do seu ratinho a milanesa rs";
+const message = "queria que vc soubesse o quanto você significa para mim. você alegra minha vida de maneiras que eu nem consigo explicar. cada brincadeirinha, cada beijo, cada abraço, cada sorriso, faz meu coração bater tão forte que parece que ele pode explodir a qualquer momento. sou imensamente grato por ter te conhecido e por tudo o que vivemos, apesar das nossas discussões e o tempo ruim que tivemos. sei que não fui o melhor parceiro que você poderia ter mas quero que saiba que eu me esforço todos os dias para poder voltar a ser o seu amor, mesmo errando e sendo falho. espero muito pelo dia que poderei dizer que vc é minha e só minha. eu te amo muito mesmo... com muito amor, do seu ratinho a milanesa";
 
 let typingInterval;
 function typeText(text, element, speed = 60) {
